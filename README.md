@@ -1,10 +1,22 @@
 # 152
 
 
-create a rocket launcher scene
-
-
 Document Object Model.
+
+Basically, this model or design considers web pages as documents and follows a certain structure to represent each element of this
+document.
+
+This model connects web pages (which are displayed using HTML) with programming languages such as Javascript.
+
+This helps us to access and manipulate the element data on the web pages.
+
+Since A-Frame is just HTML, we can control the scene and its entities using JavaScript and HTML DOM.
+
+There is something called events and event listeners in JavaScript. 
+With JavaScript events and event listeners and HTML DOM, A-Frame entities and components can be connected with one another easily.
+
+
+
 
 In the Speed Racer game, we used DOM elements like button, input, and heading, as shown in the gif. Behind the scenes,
 we have a defined tree-like structure for this. When a web page is loaded, the browser creates a Document Object Model of the page.
